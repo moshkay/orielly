@@ -22,4 +22,5 @@ query: word to filter with
 
 
 <h1>Documentation</h1>
-
+<u>Programming language used</u>
+This problem was solved using the python programming 
