@@ -18,4 +18,8 @@ limit: specify number per page
 query: word to filter with
 
 <h5>retrieve a book</h5>
-######endpoint: [Base url]/book/<book_id> method: GET
+<b>endpoint</b>: [Base url]/book/<book_id> method: GET
+
+
+<h1>Documentation</h1>
+
