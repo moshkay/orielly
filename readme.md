@@ -1,5 +1,5 @@
-<h5>Endpoints</h5>
-<h6>To add a book</h6>
+<h4>Endpoints</h4>
+<h5>To add a book</h5>
 endpoint: [Base url]/books/ method: POST
 
 body: {
@@ -9,7 +9,7 @@ body: {
     "isbn":"122345678"
 }
 
-<h6>To retrieve all books<h6>
+<h5>To retrieve all books</h5>
 <b>endpoint:</b> [Base_url]/books/ method: GET
 
 params:
@@ -17,5 +17,5 @@ page: specify page number
 limit: specify number per page
 query: word to filter with
 
-<h6>retrieve a book</h6>
+<h5>retrieve a book</h5>
 ######endpoint: [Base url]/book/<book_id> method: GET
