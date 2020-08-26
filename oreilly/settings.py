@@ -26,7 +26,7 @@ SECRET_KEY = '7*zt7w#*u$iv!7gfw7(b3j64ngi0)+2g0(rf$6zit(-is!r_e4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']#add the ip of the server here eg. ['127.0.0.1']
 
 
 # Application definition
@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'oreilly_api.apps.OreillyApiConfig',
-    'oreilly_api'
+    'oreilly_api',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
