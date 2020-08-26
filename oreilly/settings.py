@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '7*zt7w#*u$iv!7gfw7(b3j64ngi0)+2g0(rf$6zit(-is!r_e4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1']#add the ip of the server here eg. ['127.0.0.1']
 
