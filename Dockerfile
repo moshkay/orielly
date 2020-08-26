@@ -9,11 +9,10 @@ COPY requirements.txt /code/
 
 
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
 
 COPY . /code/
 RUN pip install -r requirements.txt
 
 EXPOSE 5001
-
+CMD ["uvicorn", "--host", "0.0.0.0", "--port", "8000", "oreilly.asgi:application"]
 
